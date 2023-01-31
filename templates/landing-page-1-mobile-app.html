@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Landing Page - 1 - Mobile App</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C500%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope%3A600"/>
+  <!-- <link rel="stylesheet" href="/static/styles/landing-page-1-mobile-app.css"/> -->
+  <link href="{{ url_for('static',filename='styles/landing-page-1-mobile-app.css')}}" rel="stylesheet">
+
+</head>
+<body>
+<div class="landing-page-1-mobile-app-DuU">
+  <div class="landing-page-1-mobile-app-background-mask-E3t">
+  </div>
+  <img class="auto-group-6qw6-7dU" src="{{url_for('static', filename='assets/auto-group-6qw6.png')}}"/>
+  <div class="footer-3X8">
+    <img class="image-3-pJv" src="{{url_for('static', filename='assets/image-3.png')}}" />
+    <div class="about-u5U">
+      <p class="about-Qnv">About</p>
+      <p class="contact-us-privacy--JtJ">
+      Contact Us
+      <br/>
+      Privacy &amp; Policy
+      <br/>
+      Terms &amp; Conditions
+      <br/>
+      FAQ
+      </p>
+    </div>
+    <div class="sosmed-23c">
+      <p class="stay-connected-ZpE">Stay Connected</p>
+      <div class="auto-group-qapc-GyY">
+        <div class="auto-group-jwxk-ngz">
+          <img class="ico-facebook-Upi" src="{{url_for('static', filename='assets/ico-facebook.png')}}"/>
+          <img class="ico-twitter-D1c" src="{{url_for('static', filename='assets/ico-twitter.png')}}"/>
+          <img class="ico-instagram-Z5U" src="{{url_for('static', filename='assets/ico-instagram.png')}}"/>
+        </div>
+        <p class="facebook-twtiter-ins-fuC">
+        Facebook
+        <br/>
+        Twtiter
+        <br/>
+        Instagram
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="create-your-store-KTx">
+    <div class="auto-group-hfja-chx">
+      <p class="test-with-your-own-text-YLi">Test with your own text</p>
+      <div class="auto-group-wzls-4Zx">
+        <div class="line-1-cbU">
+        </div>
+        <p class="prediction-wNr">Classification</p>
+      </div>
+    </div>
+
+
+
+      <form action="/predict" method = "POST" id="login_form">
+
+      <div class="auto-group-x7vr-GAE">
+        <!-- input -->
+        <div class="auto-group-4fbg-QnE">
+          <textarea class="test2"  name = 'input_text' placeholder="text here" type="text">{{in_val}}</textarea>
+        </div>
+        <!-- output -->
+        <div class="auto-group-b2y2-gjk">
+    
+          <p>
+            Sentence ={{result}}
+          </br>
+            target   ={{result2}}
+        </br>
+            Polarity ={{result3}}
+          </p>    
+        </div>
+      </div>
+      <!--  BUTTON -->
+      <button class="cta-button-nGz" form="login_form" id="login_form" onclick="return validarLogin()" type='submit'>
+        Run
+        <!-- <img class="auto-group-yuhk-6oU" src="./assets/auto-group-yuhk.png"/> -->
+      </button>
+        
+      </form>
+
+  </div>
+  <div class="cover-area-BK8">
+    <img class="background-blue-Vai" src="{{url_for('static', filename='assets/background-blue.png')}}"/>
+    <div class="button-component-EoC">
+      <img class="rectangle-167-ZqU" src="{{url_for('static', filename='assets/rectangle-167.png')}}"/>
+      <div class="group-126-6aW">
+        <img class="auto-group-muvx-r3t" src="{{url_for('static', filename='assets/auto-group-muvx.png')}}"/>
+      </div>
+    </div>
+    <div class="group-176-yeJ">
+      <p class="cover-text-GtJ">
+      Target-Based
+      <br/>
+      Sentiment Analysis
+      <br/>
+      For Egyptian Dialect
+      </p>
+      <div class="cover-sub-text-15C">Use sentiment analysis to quickly detect emotions in text data.</div>
+      <div class="cta-button-XJS">
+        <img class="auto-group-y3ox-gSE" src="{{url_for('static', filename='assets/auto-group-y3ox.png')}}"/>
+      </div>
+    </div>
+    <img class="cover-image-shadow-BNz" src="{{url_for('static', filename='assets/cover-image-shadow.png')}}"/>
+    <div class="background-design-element-circles-7nS">
+      <div class="background-design-element-circles-qiS">
+        <div class="auto-group-hcya-xHG">
+          <img class="ellipse-241-HqL" src="{{url_for('static', filename='assets/ellipse-241.png')}}"/>
+          <img class="ellipse-242-d8W" src="{{url_for('static', filename='assets/ellipse-242-YVY.png')}}"/>
+          <img class="ellipse-243-aZY" src="{{url_for('static', filename='assets/ellipse-243-asL.png')}}"/>
+          <img class="ellipse-244-vdQ" src="{{url_for('static', filename='assets/ellipse-244.png')}}"/>
+          <img class="ellipse-245-t4S" src="{{url_for('static', filename='assets/ellipse-245.png')}}"/>
+        </div>
+        <div class="auto-group-h4f4-zdG">
+          <img class="ellipse-246-jqk" src="{{url_for('static', filename='assets/ellipse-246.png')}}"/>
+          <img class="ellipse-247-UoL" src="{{url_for('static', filename='assets/ellipse-247-GMG.png')}}"/>
+          <img class="ellipse-248-cuY" src="{{url_for('static', filename='assets/ellipse-248.png')}}"/>
+          <img class="ellipse-249-xTc" src="{{url_for('static', filename='assets/ellipse-249.png')}}"/>
+          <img class="ellipse-250-J1g" src="{{url_for('static', filename='assets/ellipse-250.png')}}"/>
+        </div>
+        <div class="auto-group-dk26-qnJ">
+          <img class="ellipse-251-nSe" src="{{url_for('static', filename='assets/ellipse-251.png')}}"/>
+          <img class="ellipse-252-uXG" src="{{url_for('static', filename='assets/ellipse-252-c7t.png')}}"/>
+          <img class="ellipse-253-TYn" src="{{url_for('static', filename='assets/ellipse-253.png')}}"/>
+          <img class="ellipse-254-1aJ" src="{{url_for('static', filename='assets/ellipse-254.png')}}"/>
+          <img class="ellipse-255-Yq8" src="{{url_for('static', filename='assets/ellipse-255-fHC.png')}}"/>
+        </div>
+        <div class="auto-group-vqjs-W1G">
+          <img class="ellipse-256-edG" src="{{url_for('static', filename='assets/ellipse-256.png')}}"/>
+          <img class="ellipse-257-NJN" src="{{url_for('static', filename='assets/ellipse-257.png')}}"/>
+          <img class="ellipse-258-JC2" src="{{url_for('static', filename='assets/ellipse-258.png')}}"/>
+          <img class="ellipse-259-TKp" src="{{url_for('static', filename='assets/ellipse-259-ehY.png')}}"/>
+          <img class="ellipse-260-pAN" src="{{url_for('static', filename='assets/ellipse-260.png')}}"/>
+        </div>
+        <div class="auto-group-clfc-xnN">
+          <img class="ellipse-261-V1c" src="{{url_for('static', filename='assets/ellipse-261.png')}}"/>
+          <img class="ellipse-262-EE6" src="{{url_for('static', filename='assets/ellipse-262.png')}}"/>
+          <img class="ellipse-263-Bf8" src="{{url_for('static', filename='assets/ellipse-263-VdL.png')}}"/>
+          <img class="ellipse-264-Lnv" src="{{url_for('static', filename='assets/ellipse-264.png')}}"/>
+          <img class="ellipse-265-sXx" src="{{url_for('static', filename='assets/ellipse-265.png')}}"/>
+        </div>
+        <div class="auto-group-js3l-dGE">
+          <img class="ellipse-266-MT8" src="{{url_for('static', filename='assets/ellipse-266.png')}}"/>
+          <img class="ellipse-267-uzS" src="{{url_for('static', filename='assets/ellipse-267-4jk.png')}}"/>
+          <img class="ellipse-268-2ZG" src="{{url_for('static', filename='assets/ellipse-268.png')}}"/>
+          <img class="ellipse-269-aan" src="{{url_for('static', filename='assets/ellipse-269-SxS.png')}}"/>
+          <img class="ellipse-270-wRL" src="{{url_for('static', filename='assets/ellipse-270-6jk.png')}}"/>
+        </div>
+        <div class="auto-group-gymg-sZt">
+          <img class="ellipse-271-RbQ" src="{{url_for('static', filename='assets/ellipse-271-zbk.png')}}"/>
+          <img class="ellipse-272-PHL" src="{{url_for('static', filename='assets/ellipse-272.png')}}"/>
+          <img class="ellipse-273-LTU" src="{{url_for('static', filename='assets/ellipse-273.png')}}"/>
+          <img class="ellipse-274-gGS" src="{{url_for('static', filename='assets/ellipse-274.png')}}"/>
+          <img class="ellipse-275-36z" src="{{url_for('static', filename='assets/ellipse-275-gf4.png')}}"/>
+        </div>
+      </div>
+      <div class="background-design-element-circles-PAr">
+        <div class="auto-group-zqmc-u9C">
+          <img class="ellipse-241-Sev" src="{{url_for('static', filename='assets/ellipse-241-8Rg.png')}}"/>
+          <img class="ellipse-242-xtA" src="{{url_for('static', filename='assets/ellipse-242.png')}}"/>
+          <img class="ellipse-243-isL" src="{{url_for('static', filename='assets/ellipse-243.png')}}"/>
+          <img class="ellipse-244-skE" src="{{url_for('static', filename='assets/ellipse-244-xkJ.png')}}"/>
+          <img class="ellipse-245-R14" src="{{url_for('static', filename='assets/ellipse-245-BMt.png')}}"/>
+        </div>
+        <div class="auto-group-dkrt-kp2">
+          <img class="ellipse-246-W2W" src="{{url_for('static', filename='assets/ellipse-246-Qga.png')}}"/>
+          <img class="ellipse-247-fAJ" src="{{url_for('static', filename='assets/ellipse-247.png')}}"/>
+          <img class="ellipse-248-BPY" src="{{url_for('static', filename='assets/ellipse-248-UiE.png')}}"/>
+          <img class="ellipse-249-jfx" src="{{url_for('static', filename='assets/ellipse-249-fwx.png')}}"/>
+          <img class="ellipse-250-UdY" src="{{url_for('static', filename='assets/ellipse-250-xBL.png')}}"/>
+        </div>
+        <div class="auto-group-pbuc-EMp">
+          <img class="ellipse-251-ZQ6" src="{{url_for('static', filename='assets/ellipse-251-A9Q.png')}}"/>
+          <img class="ellipse-252-X62" src="{{url_for('static', filename='assets/ellipse-252.png')}}"/>
+          <img class="ellipse-253-5dL" src="{{url_for('static', filename='assets/ellipse-253-Xge.png')}}"/>
+          <img class="ellipse-254-STt" src="{{url_for('static', filename='assets/ellipse-254-LE6.png')}}"/>
+          <img class="ellipse-255-kzN" src="{{url_for('static', filename='assets/ellipse-255.png')}}"/>
+        </div>
+        <div class="auto-group-ih1l-huc">
+          <img class="ellipse-256-FRL" src="{{url_for('static', filename='assets/ellipse-256-h14.png')}}"/>
+          <img class="ellipse-257-NF4" src="{{url_for('static', filename='assets/ellipse-257-mGN.png')}}"/>
+          <img class="ellipse-258-uEz" src="{{url_for('static', filename='assets/ellipse-258-rS6.png')}}"/>
+          <img class="ellipse-259-pMx" src="{{url_for('static', filename='assets/ellipse-259.png')}}"/>
+          <img class="ellipse-260-M6z" src="{{url_for('static', filename='assets/ellipse-260-7Vt.png')}}"/>
+        </div>
+        <div class="auto-group-ymsj-gQA">
+          <img class="ellipse-261-Dez" src="{{url_for('static', filename='assets/ellipse-261-NFt.png')}}"/>
+          <img class="ellipse-262-aEe" src="{{url_for('static', filename='assets/ellipse-262-FVc.png')}}"/>
+          <img class="ellipse-263-XQn" src="{{url_for('static', filename='assets/ellipse-263.png')}}"/>
+          <img class="ellipse-264-rT4" src="{{url_for('static', filename='assets/ellipse-264-Mc6.png')}}"/>
+          <img class="ellipse-265-Cmp" src="{{url_for('static', filename='assets/ellipse-265-b9C.png')}}"/>
+        </div>
+        <div class="auto-group-6ses-Mei">
+          <img class="ellipse-266-hyU" src="{{url_for('static', filename='assets/ellipse-266-HjY.png')}}"/>
+          <img class="ellipse-267-RuU" src="{{url_for('static', filename='assets/ellipse-267.png')}}"/>
+          <img class="ellipse-268-anN" src="{{url_for('static', filename='assets/ellipse-268-mkW.png')}}"/>
+          <img class="ellipse-269-XBp" src="{{url_for('static', filename='assets/ellipse-269.png')}}"/>
+          <img class="ellipse-270-5j8" src="{{url_for('static', filename='assets/ellipse-270.png')}}"/>
+        </div>
+        <div class="auto-group-anmq-pRp">
+          <img class="ellipse-271-aA6" src="{{url_for('static', filename='assets/ellipse-271.png')}}"/>
+          <img class="ellipse-272-KtN" src="{{url_for('static', filename='assets/ellipse-272-ziE.png')}}"/>
+          <img class="ellipse-273-VH4" src="{{url_for('static', filename='assets/ellipse-273-ESE.png')}}"/>
+          <img class="ellipse-274-pKL" src="{{url_for('static', filename='assets/ellipse-274-Lki.png')}}"/>
+          <img class="ellipse-275-B9t" src="{{url_for('static', filename='assets/ellipse-275.png')}}"/>
+        </div>
+      </div>
+    </div>
+    <div class="design-element-circle-vdG">
+    </div>
+    <img class="frame-Ra2" src="{{url_for('static', filename='assets/frame.png')}}"/>
+    <div class="topnav-9W2">
+      <div class="menu-gkr">
+        <p class="home-ZZk">Home</p>
+        <p class="contact-JGS">Contact</p>
+      </div>
+      <p class="faq-qnA">FAQ</p>
+      <p class="services-MkW">Services</p>
+    </div>
+  </div>
+  <p class="bring-more-systems-i-q9t">Play around with our sentiment analyzer, below:</p>
+</div>
+  
+</script>
+</body>
