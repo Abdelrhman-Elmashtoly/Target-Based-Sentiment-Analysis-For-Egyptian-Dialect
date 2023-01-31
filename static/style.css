@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('new_one.jfif');
+    background-size:contain ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* align items center vertically and horizontally  */
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items:center !important;
+    /* height: 100vh; */
+    margin-top: 50px;
+  }
+
+  .form{
+    width: 650px;
+    height: 200px;
+    background-color: rgba(41, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+    padding-top: 50PX;
+    border-radius: 0.6rem;
+    border:none;
+
+  }
+
+  .btn button {
+    padding: 3px;
+    margin: 30px 0px 40px 30px;
+    border-style: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 550;
+  }
+
+  .formGroup{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .signUpBtn{
+    display: flex;
+    justify-content: center;
+    align-items:center !important;
+  }
+
+  .formGroup input{
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid rgb(24, 233, 222);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(91, 190, 243);
+    font-size: 30px;
+    font-weight: bold;
+    color: white(0, 0, 0);
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
+  .text{
+    color: rgb(199, 197, 197);
+    font-size: 13px;
+  }
+
+  .btn2{
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(10, 119, 136);
+    border-style: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 25px;
+  }
+
+  .btn2:hover{
+    background-color: rgba(18, 156, 171, 0.5);
+  }
+
+  .btn button:hover{
+    border-bottom: 2px solid rgb(91, 159, 243);
+  }
+
+  .textera{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    /* background-color: transparent; */
+    margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 11px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: serif;
+    border-radius: 0.6rem;
+    border:none;
+    background-color: rgb(155, 165, 165);
+  }
+
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: white;
+    font-family: serif;
+    font-size: 40px;
+    padding: 0.4rem;
+    font-weight: bold;
+    /* background-color: rgba(18, 156, 171, 0.5); */
+  }
